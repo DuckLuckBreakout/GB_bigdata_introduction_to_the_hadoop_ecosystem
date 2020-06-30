@@ -29,6 +29,8 @@ c. в HDFS в формате sequencefile (`--as-sequencefile`)
 - Тип канала – memory
 - Тип слива – hdfs
 
+[![imageup.ru](https://imageup.ru/img202/3625606/screenshot-from-2020-06-30-15-53-39.jpg)](https://imageup.ru/img202/3625606/screenshot-from-2020-06-30-15-53-39.jpg.html)
+
 ## 3. Убедиться что данные поступают в слив.
 
 ## 4. Создать поверх данных в hdfs таблицу через которую можно просмотреть полученные данные.
