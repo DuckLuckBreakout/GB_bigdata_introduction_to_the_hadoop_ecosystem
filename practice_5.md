@@ -23,18 +23,24 @@ c. в HDFS в формате sequencefile (`--as-sequencefile`)
 
 ## 1. Создать Flume-агент с именем, соответствующим имени своего пользователя (например Flume4_20)
 
+[![imageup.ru](https://imageup.ru/img258/3625614/screenshot-from-2020-06-30-17-00-33.png)](https://imageup.ru/img258/3625614/screenshot-from-2020-06-30-17-00-33.png.html)
+
 ## 2. Создать любой Flume поток используя Flume сервис соответствующего номера.
 
 - Тип источника источник – exeс
 - Тип канала – memory
 - Тип слива – hdfs
 
-[![imageup.ru](https://imageup.ru/img202/3625606/screenshot-from-2020-06-30-15-53-39.jpg)](https://imageup.ru/img202/3625606/screenshot-from-2020-06-30-15-53-39.jpg.html)
+[![imageup.ru](https://imageup.ru/img110/3625613/screenshot-from-2020-06-30-16-59-50.jpg)](https://imageup.ru/img110/3625613/screenshot-from-2020-06-30-16-59-50.jpg.html)
 
 ## 3. Убедиться что данные поступают в слив.
+```
+[student4_13@node1 ~]$ echo "dada" >> /tmp/data
+[student4_13@node1 ~]$ hdfs dfs -ls /flume/Flume4_13
+Found 1 items
+drwxr-xr-x   - flume flume          0 2020-06-30 13:58 /flume/Flume4_13/20-06-30
+```
 
 ## 4. Создать поверх данных в hdfs таблицу через которую можно просмотреть полученные данные.
 
-## 5. [Продвинутый вариант] Сделать то-же самое используя несколько сливов в разные места, например в HDFS и в HIve одновременно
 
-## 6. [Продвинутый вариант] Повторить стандартный пример с выборкой сообщений из Twitter.
