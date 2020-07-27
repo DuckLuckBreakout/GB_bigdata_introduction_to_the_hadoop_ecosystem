@@ -222,6 +222,4 @@ Found 1 solutions
 ### б. Найти свои задачи в интерфейсе Cloudera Manager
 [![imageup.ru](https://imageup.ru/img109/3635612/screenshot-from-2020-07-27-20-06-55.png)](https://imageup.ru/img109/3635612/screenshot-from-2020-07-27-20-06-55.png.html)
 [![imageup.ru](https://imageup.ru/img130/3635617/screenshot-from-2020-07-27-20-50-22.png)](https://imageup.ru/img130/3635617/screenshot-from-2020-07-27-20-50-22.png.html)
-### в. Опробовать навигацию по интерфейсу YARN
-
 
